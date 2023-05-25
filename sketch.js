@@ -40,13 +40,13 @@ function setup() {
     
    button = createButton('submit');
   button.position(input.x + input.width, 85);
-    button.style('font-family','OverpassMono-Semibold')
+    button.style('font-family','Proto-Mono-Regular.otf')
     button.style('color','green')
    greeting = createElement('h2', 'Whats something you want to confess<br> about your relationship with social media?');
   greeting.position(350, 5);
   bg = loadImage('sa.png');
 greeting.style('color', 'white'); 
-    greeting.style('font-family', 'OverpassMono-Semibold')
+    greeting.style('font-family', 'Proto-Mono-Regular.otf')
     greeting.style('font-size', '20')
     greeting.style('text-align', 'center')
   
