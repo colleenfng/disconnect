@@ -29,6 +29,7 @@ let radius3 = 10; // radius of the circle
 let myFont;
 function preload() {
   myFont = loadFont('Proto-Mono-Regular.otf');
+ thisFont = loadFont('OverpassMono-Semibold.ttf');
 }
 
 function setup() {
